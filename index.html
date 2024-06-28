@@ -30,5 +30,24 @@
 
     <script src="jquery.js"></script>
     
+    <script>
+    
+    let x = $(document);
+    x.ready(inicializarEventos);
+    
+    function inicializarEventos(){
+        let x = $("#menu a");
+        x.click(fuera);
+    }
+    
+    function fuera(){
+        let pagina = $(this).attr("href");
+        let x=$("#detalles");
+        x.load(pagina)
+        return false
+    }
+    
+    </script>
+    
 </body>
 </html>

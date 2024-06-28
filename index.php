@@ -18,7 +18,7 @@ if($_REQUEST['cod']==6){ ?>
 <h2>VIRGO: Tendras un excelente día en el trabajo</h2>
 <?php }
 if($_REQUEST['cod']==7){ ?>
-<h2>LIBRA: Problema legales</h2>
+<h2>LIBRA: Problemas legales</h2>
 <?php }
 if($_REQUEST['cod']==8){ ?>
 <h2>ESCORPIO: Te invita a la playa</h2>
